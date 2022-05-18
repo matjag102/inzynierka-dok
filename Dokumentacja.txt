@@ -1,0 +1,50 @@
+Temat: System zarządzania ligami amatorskimi
+
+Technologie:
+Backend: Django
+Frontend: Angular
+
+
+Aktorzy:
+-Administrator
+-Opiekun turnieju-osoba odpowiedzialna za weryfikowanie wyników rozgrywek
+-Kapitan zespołu-osoba rejestrująca drużynę i zarządzająca własną drużyną
+-Członek zespołu-zarejestrowana na stronie i zapisana do drużyny
+
+
+Funkcjonalności wstępne:
+
+dla każdego aktora:
+-rejestracja
+-logowanie
+-przeglądanie statystyk
+-edycja profilu i konta
+
+dla kapitana drużyny:
+-tworzenie drużyny
+-dodawanie/usuwanie członków zespołu
+-wybieranie squadu do rozgrywki
+-wysyłanie zgłoszeń odnośnie rozgrywki
+-rejestracja do turnieju
+-rezygnacja z turnieju
+
+dla opiekuna turnieju:
+-tworzenie nowego turnieju
+-weryfikacja wyników meczu
+-rozpatrywanie zgłoszen
+-wstawianie ogłoszeń
+-zarządzanie drzewkiem turniejowym
+
+dla administratora:
+-to samo co dla opiekuna
+-zarządzanie kontami użytkowników
+-tworzenie kont dla opiekunów
+
+Krótki opis:
+
+System pozwoli na organizację amatorskich turniejów, gdzie każdy zarejestrowany użytkownik będzie mógł stworzyć 
+własną drużyne i zarejestrować ją do wybranego turnieju.
+Tworzone będzie drzewko turniejowe wyświetlające zestawienie drużyn i ich wyniki w trakcie trwania turnieju. 
+Dodatkowo każdy zawodnik będzie mógł śledzić swoje indywidualne statystyki.
+
+
